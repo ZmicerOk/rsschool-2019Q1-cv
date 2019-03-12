@@ -1,0 +1,104 @@
+body {
+    padding: 0;
+    width: 1024px;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+    color: #222222;
+}
+
+.all-wrapper{
+    background: #fafafa;
+}
+
+.section-title{
+    background: #555555;
+    text-transform: lowercase;
+    color: #fafafa;
+    padding: .5rem 1rem;
+}
+
+section p{
+    padding:.5rem;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.article-title{
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    font-size: 2rem;
+}
+
+.photo{
+    width: 20rem;
+}
+
+img {
+    width: 100%;
+}
+
+.contacts{
+    padding: .5rem 2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.contacts span{
+    display: inline-block;
+    margin-right: .5rem;
+}
+
+.portfolio ul {
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio li {
+    width: 15rem;
+    list-style: none;
+    margin: 1rem;
+    padding: 0rem;
+}
+
+.portfolio li img{
+    width: 100%;
+
+}
+.portfolio li:hover {
+    transform: scale(1.05);
+    transition: .4s linear;
+}
+
+.education a{
+    color: darkorange;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.education a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
