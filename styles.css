@@ -6,19 +6,15 @@ body {
     color: #222222;
 }
 
-.all-wrapper{
+.all-wrapper {
     background: #fafafa;
 }
 
-.section-title{
+.section-title {
     background: #555555;
     text-transform: lowercase;
     color: #fafafa;
-    padding: .5rem 1rem;
-}
-
-section p{
-    padding:.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .visually-hidden {
@@ -35,7 +31,7 @@ section p{
     overflow: hidden;
 }
 
-.top-container{
+.top-container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -43,14 +39,14 @@ section p{
     position: relative;
 }
 
-.article-title{
+.article-title {
     position: absolute;
     top: 1rem;
     left: 2rem;
     font-size: 2rem;
 }
 
-.photo{
+.photo {
     width: 20rem;
 }
 
@@ -58,19 +54,33 @@ img {
     width: 100%;
 }
 
-.contacts{
-    padding: .5rem 2rem;
+.contacts {
+    padding: 0.5rem 2rem;
     font-size: 1.4rem;
     font-weight: bold;
 }
 
-.contacts span{
+.contacts ul,
+.skills ul {
+    list-style: none;
+}
+
+.contacts span {
     display: inline-block;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
+}
+
+.contacts li {
+    padding: 0.5rem;
+}
+
+section p,
+.skills ul {
+    padding-left: 1rem;
 }
 
 .portfolio ul {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -83,22 +93,23 @@ img {
     padding: 0rem;
 }
 
-.portfolio li img{
+.portfolio li img {
     width: 100%;
-
 }
+
 .portfolio li:hover {
     transform: scale(1.05);
-    transition: .4s linear;
+    transition: 0.4s linear;
 }
 
-.education a{
+a {
     color: darkorange;
-    font-weight: bold;
     text-decoration: none;
 }
 
-.education a:hover {
-    color: #000000;
+a:hover,
+a:focus {
+    color: #323232;
     text-decoration: underline;
+    transition: 0.1s;
 }
