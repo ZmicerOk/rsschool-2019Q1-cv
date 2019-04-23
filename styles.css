@@ -42,8 +42,9 @@ body {
 .article-title {
     position: absolute;
     top: 1rem;
-    left: 2rem;
+    left: 5rem;
     font-size: 2rem;
+    color: #323232;
 }
 
 .photo {
